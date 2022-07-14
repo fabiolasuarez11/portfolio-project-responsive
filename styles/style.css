@@ -24,6 +24,7 @@ h6 {
 
 p {
 	font-family: 'Montserrat', sans-serif;
+	line-height: 1.8;
 }
 
 footer {
@@ -35,6 +36,11 @@ footer {
 	border: solid var(--first-color) 5px;
 	border-radius: 100px;
 	background-color: #fff;
+}
+
+.navbar,
+.btn-primary {
+	font-family: 'Montserrat', sans-serif;
 }
 
 .bg-primary,
@@ -49,6 +55,16 @@ footer {
 
 .description {
 	color: var(--third-color);
+}
+
+.certificate {
+	color: var(--third-color);
+	text-decoration: none;
+}
+
+.certificate:hover {
+	color: var(--second-color);
+	text-decoration: none;
 }
 
 .dev-icons,
