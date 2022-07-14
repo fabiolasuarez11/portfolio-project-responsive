@@ -5,6 +5,11 @@
 	--second-color: #1089ff;
 	--third-color: #47555e;
 	--fourth-color: #eeeeee;
+	--fifth-color: #e5e5e5;
+}
+
+body {
+	margin: 0px;
 }
 
 h1,
@@ -21,10 +26,20 @@ p {
 	font-family: 'Montserrat', sans-serif;
 }
 
+footer {
+	background-color: var(--fifth-color);
+	margin: 0px;
+}
+
 #avatar {
 	border: solid var(--first-color) 5px;
 	border-radius: 100px;
 	background-color: #fff;
+}
+
+.bg-primary,
+.btn-primary {
+	background-color: var(--second-color) !important;
 }
 
 .container-hero {
@@ -34,4 +49,26 @@ p {
 
 .description {
 	color: var(--third-color);
+}
+
+.dev-icons,
+.social-icons,
+.social-icon {
+	font-size: 32px;
+}
+
+.fa-brands,
+.fa-solid {
+	color: var(--third-color);
+	text-align: center;
+}
+
+@media (max-width: 576px) {
+	#avatar {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		text-align: center;
+		width: 100%;
+	}
 }
