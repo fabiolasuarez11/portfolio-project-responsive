@@ -79,6 +79,25 @@ footer {
 	text-align: center;
 }
 
+.border-img {
+	border: solid 2px var(--second-color);
+	border-radius: 50px;
+}
+
+.carousel-caption {
+	background-color: RGBA(71, 85, 94, 0.7);
+}
+
+.portfolio-link {
+	color: #fff;
+	text-decoration: none;
+}
+
+.portfolio-link:hover {
+	color: var(--first-color);
+	text-decoration: none;
+}
+
 @media (max-width: 576px) {
 	#avatar {
 		display: block;
@@ -86,5 +105,11 @@ footer {
 		margin-right: auto;
 		text-align: center;
 		width: 100%;
+	}
+}
+
+@media (min-width: 577px) {
+	.responsive-link {
+		cursor: not-allowed;
 	}
 }

@@ -94,7 +94,7 @@
       <h2 class="text-center mt-5">Skills</h2>
       <div class="row">
         <div class="col-sm-1">
-          <i class="fa-solid fa-code fa-2xl my-4"></i>
+          <i class="fa-solid fa-code fa-2xl my-3"></i>
         </div>
         <div class="col-sm-5">
           <h4>Programming Languages & Tools</h4>
@@ -217,9 +217,54 @@
       </div>
     </div>
 
-    <h2 class="text-center mt-5" id="portfolio">Portfolio</h2>
+    <div class="container">
+      <h2 class="text-center my-5" id="portfolio">Portfolio</h2>
 
-    <h2 class="text-center mt-5" id="contact">Contact</h2>
+      <div id="carouselPortfolio" class="carousel slide carousel-fade" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button data-bs-target="#carouselPortfolio" type="button" data-bs-slide-to="0" class="active"
+            aria-current="true" aria-label="Slide 1"></button>
+          <button data-bs-target="#carouselPortfolio" type="button" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button data-bs-target="#carouselPortfolio" type="button" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="3000">
+            <a href="https://www.shecodes.io/workshops/shecodes-basics-462568a2-9f1f-4718-b5b0-9cf76e0653aa/projects/908309"
+              target="_blank" class="responsive-link"><img src="images/recipe-single-page.png"
+                class="d-block img-fluid w-90 m-auto border-img" alt="Recipe single sage screenshot"></a>
+            <div class="carousel-caption d-none d-md-block badge rounded-pill border-0 w-50 m-auto">
+              <h4><a
+                  href="https://www.shecodes.io/workshops/shecodes-basics-462568a2-9f1f-4718-b5b0-9cf76e0653aa/projects/908309"
+                  target="_blank" class="portfolio-link">Recipe Single Page</a></h4>
+              <p>My first project applying HTML and CSS</p>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="3000">
+            <a href="https://cheerful-khapse-b69fec.netlify.app/" target="_blank" class="responsive-link"><img
+                src="images/weather-app.png" class="d-block img-fluid w-90 m-auto border-img"
+                alt="Weather application screenshot"></a>
+            <div class="carousel-caption d-none d-md-block badge rounded-pill border-0 w-50 m-auto">
+              <h4><a href="https://cheerful-khapse-b69fec.netlify.app/" target="_blank" class="portfolio-link">Weather
+                  App</a></h4>
+              <p>My first Vanilla JavaScript app using a weather API and Netlify</p>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="3000">
+            <a href="https://iridescent-faloodeh-a194b4.netlify.app/" target="_blank" class="responsive-link"><img
+                src="images/portfolio-template.png" class="d-block img-fluid w-90 m-auto border-img"
+                alt="Portfolio template screenshot"></a>
+            <div class="carousel-caption d-none d-md-block badge rounded-pill border-0 w-50 m-auto">
+              <h4><a href="https://iridescent-faloodeh-a194b4.netlify.app/" target="_blank"
+                  class="portfolio-link">Portfolio Template</a></h4>
+              <p>Portfolio template using Bootstrap and responsive design</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+
+    <h2 class="text-center my-5" id="contact">Contact</h2>
 
   </section>
 
