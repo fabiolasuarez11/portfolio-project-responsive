@@ -62,13 +62,15 @@ footer {
 	text-decoration: none;
 }
 
-.contact-email {
+.contact-email,
+.repository {
 	color: var(--first-color);
 	text-decoration: none;
 }
 
 .certificate:hover,
-.contact-email:hover {
+.contact-email:hover,
+.repository:hover {
 	color: var(--second-color);
 	text-decoration: none;
 }
